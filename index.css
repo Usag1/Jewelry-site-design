@@ -1,0 +1,106 @@
+* {
+    width: auto;
+    color: #825736;
+    background-color: #d8c2a2;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*----- Header -----*/
+header {
+    padding: 2%;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+}
+.navbar {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 18%;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+.nav-list li {
+    font-size: 1.25rem;
+    margin: 10px;
+    cursor: pointer;
+}
+.nav-list li:hover {
+    color: #ffffff;
+}
+.user-account {
+    display: flex;
+    list-style: none;
+}
+.user-account li {
+    margin: 5px;
+    cursor: pointer;
+}
+.user-account li:hover {
+    color: #ffffff;
+}
+.bi {
+    cursor: pointer;
+}
+/*----- Home Page -----*/
+#home {
+    padding: 2%;
+    height: 90vh;
+}
+.home-img {
+    height: 100%;
+    margin: auto;
+    background-size: cover;
+    
+}
+/*----- Jewelry Page -----*/
+#jewelry {
+    padding: 5%;
+    height: 100vh;
+}
+.product {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+}
+button {
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+}
+.product img {
+    width: 30%;
+}
+/*----- About Page -----*/
+#about {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.about-content {
+    padding: 5%;
+}
+.about-img {
+    height: 100vh;
+}
+.about-content p {
+    margin: 5% 20%;
+}
+/*----- Contact Page -----*/
+#contact {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+.contact-img {
+    height: 100vh;
+}
+.contact-content {
+    padding: 5%;
+}
+.contact-info {
+    margin: 15% 8%;
+    border-left: solid #825736;
+}
